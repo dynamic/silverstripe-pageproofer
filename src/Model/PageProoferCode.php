@@ -1,6 +1,6 @@
 <?php
 
-namespace Muskie9\PageProofer\Model;
+namespace Dynamic\PageProofer\Model;
 
 use SilverStripe\Control\Director;
 use SilverStripe\Forms\CheckboxField;
@@ -14,7 +14,7 @@ use SilverStripe\SiteConfig\SiteConfig;
 
 /**
  * Class PageProoferCode
- * @package Muskie9\PageProofer\Model
+ * @package Dynamic\PageProofer\Model
  */
 class PageProoferCode extends DataObject implements PermissionProvider
 {

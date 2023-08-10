@@ -1,11 +1,10 @@
 {
-    "name": "muskie9/pageproofer",
+    "name": "dynamic/silverstripe-pageproofer",
     "description": "Add PageProofer code snippet to websites via cms.",
     "authors": [
         {
             "name": "Nic Horstmeier",
-            "email": "nhorstmeier@gmail.com",
-            "homepage": "http://muskie9.com",
+            "email": "nhorstmeier@dynamicagency.com",
             "role": "Developer"
         }
     ],
@@ -16,24 +15,19 @@
     "type": "silverstripe-vendormodule",
     "license": "BSD-3-Clause",
     "require": {
-        "silverstripe/recipe-cms": "^1.0 || ^4.0",
-        "silverstripe/vendor-plugin": "^1.0"
+        "silverstripe/cms": "^4.10"
+    },
+    "replace": {
+        "muskie9/silverstripe-pageproofer": "self.version"
     },
     "autoload": {
         "psr-4": {
-            "Muskie9\\PageProofer\\": "src",
-            "Muskie9\\PageProofer\\Tests\\": "tests/"
-        }
-    },
-    "extra": {
-        "installer-name": "pageproofer",
-        "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "Dynamic\\PageProofer\\": "src",
+            "Dynamic\\PageProofer\\Tests\\": "tests/"
         }
     },
     "require-dev": {
-        "phpunit/PHPUnit": "^5.7",
-        "squizlabs/php_codesniffer": "*"
+        "phpunit/phpunit": "^9.5"
     },
     "config": {
         "process-timeout": 600

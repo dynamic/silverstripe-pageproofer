@@ -28,7 +28,7 @@ SilverStripe\Security\Member:
     FirstName: Default
     Surname: User
     Email: user@dynamicagency.com
-Muskie9\PageProofer\Model\PageProoferCode:
+Dynamic\PageProofer\Model\PageProoferCode:
   one:
     Title: Test Code 1
     Code: 12345345
