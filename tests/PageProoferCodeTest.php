@@ -1,18 +1,17 @@
 <?php
 
-namespace Muskie9\PageProofer\Tests;
+namespace Dynamic\PageProofer\Tests;
 
-use Muskie9\PageProofer\Model\PageProoferCode;
+use Dynamic\PageProofer\Model\PageProoferCode;
 use SilverStripe\Control\Director;
 use SilverStripe\Dev\SapphireTest;
 use SilverStripe\Forms\CheckboxField;
 use SilverStripe\Forms\TextField;
-use SilverStripe\ORM\ValidationResult;
 use SilverStripe\Security\Member;
 
 /**
  * Class PageProoferCodeTest
- * @package Muskie9\PageProofer\Tests
+ * @package Dynamic\PageProofer\Tests
  */
 class PageProoferCodeTest extends SapphireTest
 {

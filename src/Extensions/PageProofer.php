@@ -1,15 +1,15 @@
 <?php
 
-namespace Muskie9\PageProofer\Extensions;
+namespace Dynamic\PageProofer\Extensions;
 
-use Muskie9\PageProofer\Model\PageProoferCode;
+use Dynamic\PageProofer\Model\PageProoferCode;
 use SilverStripe\Core\Extension;
 use SilverStripe\View\ArrayData;
 use SilverStripe\View\Requirements;
 
 /**
  * Class PageProofer
- * @package Muskie9\PageProofer\Extensions
+ * @package Dynamic\PageProofer\Extensions
  */
 class PageProofer extends Extension
 {

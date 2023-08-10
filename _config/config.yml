@@ -3,7 +3,7 @@ Name: silverstripepageprooferconfig
 ---
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
-    - Muskie9\PageProofer\Extensions\PageProoferConfig
+    - Dynamic\PageProofer\Extensions\PageProoferConfig
 SilverStripe\CMS\Controllers\ContentController:
   extensions:
-    - Muskie9\PageProofer\Extensions\PageProofer
+    - Dynamic\PageProofer\Extensions\PageProofer

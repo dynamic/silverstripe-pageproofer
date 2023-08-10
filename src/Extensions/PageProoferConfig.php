@@ -1,8 +1,8 @@
 <?php
 
-namespace Muskie9\PageProofer\Extensions;
+namespace Dynamic\PageProofer\Extensions;
 
-use Muskie9\PageProofer\Model\PageProoferCode;
+use Dynamic\PageProofer\Model\PageProoferCode;
 use SilverStripe\Forms\FieldList;
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;

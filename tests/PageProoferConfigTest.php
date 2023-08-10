@@ -1,8 +1,8 @@
 <?php
 
-namespace Muskie9\PageProofer\Tests;
+namespace Dynamic\PageProofer\Tests;
 
-use Muskie9\PageProofer\Model\PageProoferCode;
+use Dynamic\PageProofer\Model\PageProoferCode;
 use SilverStripe\Control\Director;
 use SilverStripe\Dev\SapphireTest;
 use SilverStripe\ORM\ValidationException;
@@ -10,7 +10,7 @@ use SilverStripe\SiteConfig\SiteConfig;
 
 /**
  * Class PageProoferConfigTest
- * @package Muskie9\PageProofer\Tests
+ * @package Dynamic\PageProofer\Tests
  */
 class PageProoferConfigTest extends SapphireTest
 {
