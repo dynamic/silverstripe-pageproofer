@@ -4,6 +4,7 @@ namespace Dynamic\PageProofer\Extensions;
 
 use Dynamic\PageProofer\Model\PageProoferCode;
 use SilverStripe\Core\Extension;
+use SilverStripe\Dev\Debug;
 use SilverStripe\View\ArrayData;
 use SilverStripe\View\Requirements;
 
@@ -19,11 +20,7 @@ class PageProofer extends Extension
     public function onAfterInit()
     {
         if ($code = PageProoferCode::get_page_proofer()) {
-            $data = ArrayData::create([
-                'Code' => $code->Code,
-            ]);
-
-            Requirements::customScript($data->renderWith('PageProofer'));
+            Requirements::javascript("//app.pageproofer.com/embed/{$code->Code}", ['async' => true]);
         }
     }
 }

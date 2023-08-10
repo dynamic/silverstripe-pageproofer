@@ -23,7 +23,7 @@ class PageProoferCodeTest extends SapphireTest
     /**
      * @throws ValidationException
      */
-    public function setUp()
+    protected function setUp()
     {
         parent::setUp();
 
